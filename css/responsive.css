@@ -289,7 +289,7 @@
     }
 
     .card-body p, p.card-text, .card p{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .servicios_list.values .card p {
@@ -361,7 +361,7 @@
     }
 
     .servicios_main h5{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     section.servicios_main {
@@ -405,7 +405,7 @@
     }
 
     .card-body p, p.card-text, .card p{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .servicios_list.values .card p {
