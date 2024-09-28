@@ -1,0 +1,468 @@
+/*RESPONSIVE*/
+ @media (min-width: 1025px) and (max-width: 1561px) {
+    .container-nosotros {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0 150px;
+    }
+    .card-custom {
+        width: 100%;
+    }
+    .card-img-top{
+        width: 60%;
+    }
+    .img-icon{
+        margin-right: 2px;
+        width: 10%;
+    }
+    .card-size{
+        padding: 30px;
+    }
+    .footer-margin{
+        margin-left: 250px;
+    }
+    .contenedor-centrado{
+        min-height: calc(100vh - 217px);
+    }
+    .titulo {
+        margin: 15px 0 15px 0;
+    }
+    .card-custom{
+        padding: 1rem 0;
+    }
+    .btn-contacto{
+        padding: 10px 140px;
+    }
+    .home-container{
+        height: auto;
+        padding-bottom: 150px;
+    }
+    .img-home{
+        width: 18%;
+    }
+    .home{
+        padding-top: 120px;
+    }
+    .bg-general{
+        background-size: 250px, 250px;
+    }
+  }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container-nosotros {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0 90px;
+    }
+    .card-custom {
+        width: 100%;
+    }
+    .card-img-top{
+        width: 40%;
+    }
+    .img-icon{
+        margin-right: 2px;
+        width: 5%;
+    }
+    .card-size{
+        padding: 40px;
+    }
+    .footer-margin{
+        margin-left: 200px;
+    }
+    .contenedor-centrado{
+        min-height: calc(100vh - 217px);
+    }
+    .nav-link.active::after {
+        display: none;  
+    }
+    .card-custom{
+        padding: 1rem 0;
+    }
+    .titulo {
+        margin: 15px 0;
+    }
+    .btn-contacto{
+        padding: 10px 110px;
+        font-size: 17px;
+    }
+    .text-home{
+        font-size: 1.1rem;
+    }
+    .home-container{
+        height: auto;
+        padding-bottom: 255px;
+    }
+    .img-home{
+        width: 27%;
+    }
+    .img-footer{
+        width: 150px;
+    }
+    .home{
+        padding-top: 120px;
+    }
+    .bg-general{
+        background-size: 250px, 250px;
+    }
+  }
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .home-custom{
+        margin: 0;
+    }
+    .bg-general{
+        background-size: 200px, 200px;
+    }
+    .footer-margin{
+        margin-left: 0;
+    }
+    .nav-link.active::after {
+        display: none;  
+    }
+    .img-footer{
+        width: 150px;
+    }
+    .img-icon{
+        margin-right: 2px;
+        width: 5%;
+    }
+    .card-size {
+        padding: 10px;
+    }
+    .titulo {
+        margin: 15px 0 15px 0;
+    }
+    .card-custom{
+        padding: 1rem 0;
+    }
+    .container-nosotros {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0 100px;
+    }
+    .card-custom {
+        width: 100%;
+    }
+    .card-img-top{
+        width: 30%;
+    }
+    .btn-contacto{
+        padding: 10px 80px;
+        font-size: 15px;
+    }
+    .text-home{
+        font-size: 1rem;
+    }
+    .home-container{
+        height: auto;
+        padding-bottom: 180px;
+    }
+    .img-home{
+        width: 35%;
+    }
+    .home{
+        padding-top: 110px;
+    }
+    .img-soporte{
+        width: 90%;
+    }
+}
+
+@media (max-width: 576px) {
+    .home-custom{
+        margin: 0;
+    }
+    .img-home{
+        width: 50%;
+    }
+    .home{
+        padding-top: 120px;
+    }
+    .img-icon{
+        margin-right: 2px;
+        width: 10.5%;
+    }
+    .bg-general{
+        background-size: 125px, 125px;
+    }
+    .img-footer{
+        width: 30%;
+    }
+    .img-navbar{
+        margin-left: 5px;
+     }
+     .card-size {
+        padding: 10px;
+    }
+    .titulo {
+        margin: 10px 0 10px 0;
+    }
+    .card-custom{
+        padding: 1rem 0;
+    }
+    .container-nosotros {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0 25px;
+    }
+    .card-custom {
+        width: 100%;
+    }
+    .card-img-top{
+        width: 45%;
+    }
+    .nav-link.active::after {
+        display: none;  
+    }
+    .btn-contacto{
+        padding: 10px 50px;
+        font-size: 15px;
+    }
+    .text-home{
+        font-size: 1rem;
+    }
+    .home-container{
+      height: auto;
+      padding-bottom: 80px;
+    }
+    .img-soporte{
+        width: 100%;
+    }
+}
+  
+@media (min-width: 320px) and (max-width: 375px) {
+    .servicios_main h2 {
+        font-size: 1.8rem;
+    }
+
+    .servicios_main h5{
+        font-size: 1.4rem;
+    }
+
+    section.servicios_main {
+        width: 280px;
+        margin: 0 auto;
+    }
+
+    .servicios_list{
+        width: 280px;
+        margin-top: 40px!important;
+        gap: 10px;
+    }
+
+    section.servicios_main .card.service{
+        padding: 20px;
+        flex: 0 1 calc(86% - 10px);
+    }
+
+    section.servicios_main .card.service img {
+        width: 176px;
+        height: 140px;
+    }
+
+    .servicios_list .card-body {
+        padding: 0!important;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .servicios_list.values {
+        width: 280px;
+        margin: 0 auto;
+        padding-bottom: 70px;
+        gap: 50px
+    }
+
+    .servicios_list.values .card {
+        flex: calc(100%);
+        min-width: auto!important;
+        padding: 30px 40px;
+    }
+
+    .card-body p, p.card-text, .card p{
+        font-size: 1.1rem;
+    }
+
+    .servicios_list.values .card p {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+    .servicios_main h2 {
+        font-size: 1.8rem;
+    }
+
+    .servicios_main h5{
+        font-size: 1.4rem;
+    }
+
+    section.servicios_main {
+        width: 335px;
+        margin: 0 auto;
+    }
+
+    .servicios_list{
+        width: 335px;
+        margin-top: 40px!important;
+        gap: 10px;
+    }
+
+    section.servicios_main .card.service{
+        padding: 20px;
+        flex: 0 1 calc(86% - 10px);
+    }
+
+    section.servicios_main .card.service img {
+        width: 225px;
+        height: 160px;
+    }
+
+    .servicios_list .card-body {
+        padding: 0!important;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .servicios_list.values {
+        width: 335px;
+        margin: 0 auto;
+        padding-bottom: 70px;
+        gap: 50px
+    }
+
+    .servicios_list.values .card {
+        flex: calc(100%);
+        min-width: auto!important;
+        padding: 30px 40px;
+    }
+
+    .card-body p, p.card-text, .card p{
+        font-size: 1.1rem;
+    }
+
+    .servicios_list.values .card p {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .servicios_main h2 {
+        font-size: 2.1rem;
+    }
+
+    .servicios_main h5{
+        font-size: 1.4rem;
+    }
+
+    section.servicios_main {
+        width: 728px;
+        margin: 0 auto;
+    }
+
+    .servicios_list{
+        width: 728px;
+        margin-top: 40px!important;
+        gap: 20px;
+    }
+
+    section.servicios_main .card.service{
+        padding: 20px;
+        flex: 0 1 calc(34% - 20px);
+    }
+
+    section.servicios_main .card.service img {
+        width: 174px;
+        height: 160px;
+    }
+
+    .servicios_list .card-body {
+        padding: 0!important;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .servicios_list.values {
+        width: 728px;
+        margin: 0 auto;
+        padding-bottom: 70px;
+        gap: 50px
+    }
+
+    .servicios_list.values .card {
+        flex: calc(100%);
+        min-width: auto!important;
+        padding: 30px 40px;
+    }
+
+    .card-body p, p.card-text, .card p{
+        font-size: 1.1rem;
+    }
+
+    .servicios_list.values .card p {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .servicios_main h2 {
+        font-size: 2.1rem;
+    }
+
+    .servicios_main h5{
+        font-size: 1.4rem;
+    }
+
+    section.servicios_main {
+        width: 982px;
+        margin: 0 auto;
+    }
+
+    .servicios_list{
+        width: 982px;
+        margin-top: 40px!important;
+        gap: 20px;
+    }
+
+    section.servicios_main .card.service{
+        padding: 20px;
+        flex: 0 1 calc(34% - 20px);
+    }
+
+    section.servicios_main .card.service img {
+        width: 261px;
+        height: 220px;
+    }
+
+    .servicios_list .card-body {
+        padding: 0!important;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .servicios_list.values {
+        width: 982px;
+        margin: 0 auto;
+        padding-bottom: 70px;
+        gap: 50px
+    }
+
+    .servicios_list.values .card {
+        flex: calc(100%);
+        min-width: auto!important;
+        padding: 30px 40px;
+    }
+
+    .card-body p, p.card-text, .card p{
+        font-size: 1.1rem;
+    }
+
+    .servicios_list.values .card p {
+        margin-bottom: 0;
+    }
+}
