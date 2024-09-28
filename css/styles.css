@@ -177,7 +177,7 @@ section.servicios_main {
 
 img.card-img-top {
     width: 360px;
-    height: 220px;
+    height: 240px;
     margin: 0 auto;
     border-radius: 0;
 }
@@ -193,7 +193,7 @@ img.card-img-top {
 }
 .servicios_list.values .card{
     flex: 0 1 calc(50% - 40px);
-    padding: 30px 50px;
+    padding: 30px 40px;
     border-radius: 40px;
     line-height: normal;
     border-color: #2C3E50; 
