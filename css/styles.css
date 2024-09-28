@@ -112,10 +112,6 @@
 /* SERVICIOS */
 
 .bg-general.servicios{
-    background-image: url(../img/bg1.svg), url(../img/bg2.svg);
-    background-position: left top, right bottom;
-    background-size: auto;
-    background-repeat: no-repeat;
     padding: 20px
 }
 
