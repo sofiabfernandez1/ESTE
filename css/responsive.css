@@ -355,6 +355,64 @@
     }
 }
 
+@media (min-width: 425px) and (max-width: 768px) {
+    .servicios_main h2 {
+        font-size: 1.8rem;
+    }
+
+    .servicios_main h5{
+        font-size: 1.4rem;
+    }
+
+    section.servicios_main {
+        width: 385px;
+        margin: 0 auto;
+    }
+
+    .servicios_list{
+        width: 385px;
+        margin-top: 40px!important;
+        gap: 10px;
+    }
+
+    section.servicios_main .card.service{
+        padding: 20px;
+        flex: 0 1 calc(86% - 10px);
+    }
+
+    section.servicios_main .card.service img {
+        width: 268px;
+        height: 200px;
+    }
+
+    .servicios_list .card-body {
+        padding: 0!important;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .servicios_list.values {
+        width: 385px;
+        margin: 0 auto;
+        padding-bottom: 70px;
+        gap: 50px
+    }
+
+    .servicios_list.values .card {
+        flex: calc(100%);
+        min-width: auto!important;
+        padding: 30px 40px;
+    }
+
+    .card-body p, p.card-text, .card p{
+        font-size: 1.1rem;
+    }
+
+    .servicios_list.values .card p {
+        margin-bottom: 0;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
     .servicios_main h2 {
         font-size: 2.1rem;
